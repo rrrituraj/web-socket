@@ -18,7 +18,7 @@ public class MyHandler extends TextWebSocketHandler {
 
     }
 
-    private void processMessage(WebSocketSession session, String message) throws InterruptedException {
+    private void processMessage(WebSocketSession session, String message) {
         String msg = "boliye sir";
         try {
             String value = new ObjectMapper().writeValueAsString(msg);
@@ -29,12 +29,12 @@ public class MyHandler extends TextWebSocketHandler {
     }
 
     @Override
-    public void afterConnectionEstablished(WebSocketSession session) throws Exception {
+    public void afterConnectionEstablished(WebSocketSession session) {
         System.out.println("WebSocket connected with sessionId:  " + session.getId());
     }
 
     @Override
-    public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
+    public void afterConnectionClosed(WebSocketSession session, CloseStatus status) {
         System.out.println("WebSocket disconnected from sessionId:  " + session.getId());
     }
 }
