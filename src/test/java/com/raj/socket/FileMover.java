@@ -19,6 +19,7 @@ public class FileMover {
         Path vidDestPath = Paths.get("D:\\Downloads\\Videos");
         Path imgDestPath = Paths.get("D:\\Downloads\\Images");
         Path docDestPath = Paths.get("D:\\Downloads\\Documents");
+        Path ebookDestPath = Paths.get("D:\\Downloads\\Documents");
         Path softDestPath = Paths.get("D:\\Software");
         Path regDestPath = Paths.get("D:\\Downloads");
         fileMover.listAllFiles();

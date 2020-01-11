@@ -1,0 +1,10 @@
+insert into test values(1, 'test1');
+insert into test values(2, 'test1');
+insert into test values(3, 'test1');
+insert into test values(4, 'test1');
+insert into test values(5, 'test1');
+insert into test values(6, 'test1');
+insert into test values(7, 'test1');
+insert into test values(8, 'test1');
+insert into test values(9, 'test1');
+insert into test values(10, 'test1');
